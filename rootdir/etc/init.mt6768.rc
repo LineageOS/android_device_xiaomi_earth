@@ -1181,16 +1181,6 @@ service mi_thermald /system/vendor/bin/mi_thermald
     oneshot
     disabled
 
-service vendor.charger /system/bin/charger
-    class charger
-    user system
-    group system graphics wakelock input
-    capabilities SYS_BOOT
-    file /dev/kmsg w
-    file /sys/fs/pstore/console-ramoops-0 r
-    file /sys/fs/pstore/console-ramoops r
-    file /proc/last_kmsg r
-
 #C3T code for HQ-224094 by hongwei at 2022/08/19
 service screenmode0 /system/vendor/bin/factory_bin s 0
     class main

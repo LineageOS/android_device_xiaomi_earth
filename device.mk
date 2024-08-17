@@ -212,7 +212,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub \
-    libmtkperf_client_vendor \
     libmtkperf_client
 
 PRODUCT_COPY_FILES += \
@@ -266,14 +265,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl
-
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0.vendor
-
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3.vendor \
-    android.hardware.usb.gadget@1.1.vendor
 
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)

@@ -162,6 +162,9 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayEarth \
     WifiResOverlayEarth
 
+PRODUCT_PACKAGES += \
+    NcmTetheringOverlay
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Permissions

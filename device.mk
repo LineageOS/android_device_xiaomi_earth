@@ -211,14 +211,11 @@ PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.km41.xml
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := /sys/touchpanel/double_tap
-$(call soong_config_set,mediatek_power,double_tap_to_wake_node,$(TARGET_TAP_TO_WAKE_NODE))
-
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek
-
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
+    android.hardware.power-service.xiaomi-libperfmgr \
+    vendor.mediatek.hardware.mtkpower@1.2-service.stub \
+    libmtkperf_client_vendor \
+    libmtkperf_client
 
 # Power Off Alarm
 PRODUCT_PACKAGES += \
@@ -231,10 +228,10 @@ include $(LOCAL_PATH)/vendor_logtag.mk
 PRODUCT_PACKAGES += \
     fstab.mt6768 \
     fstab.mt6768.ramdisk \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6768.rc \
+    init.mt6768.power.rc \
     init.mt6768.usb.rc \
     init.project.rc \
     init.sensor_1_0.rc \
@@ -258,6 +255,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/mediatek \
     hardware/xiaomi
 

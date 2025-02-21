@@ -15,9 +15,6 @@
 /data/vendor/fpdump(/.*)?        u:object_r:vendor_fingerprint_data_file:s0
 /data/vendor/fpc(/.*)?           u:object_r:vendor_fingerprint_data_file:s0
 
-# Light
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi u:object_r:hal_light_default_exec:s0
-
 # NFC
 /dev/nq-nci u:object_r:nfc_device:s0
 

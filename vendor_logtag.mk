@@ -114,6 +114,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.log.tag.C2K_RIL-DATA=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.GsmCdmaPhone=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.hwcomposer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.HWUI=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RILMD2-SS=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.CapaSwitch=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.DSSelector=$(VENDOR_LOG_LEVEL) \

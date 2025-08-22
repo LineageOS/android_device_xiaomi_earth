@@ -341,7 +341,8 @@ on post-fs
     chown system system /config/usb_gadget/g1/strings/0x409/serialnumber
 
 on boot
-    setprop sys.usb.configfs 1
+    setprop sys.usb.controller "musb-hdrc"
+    setprop sys.usb.configfs 2
     setprop sys.usb.ffs.aio_compat 0
     setprop vendor.usb.controller "musb-hdrc"
     setprop vendor.usb.acm_cnt 0

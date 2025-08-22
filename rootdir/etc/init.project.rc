@@ -181,3 +181,6 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
 
 on property:ro.boot.product.hardware.sku=aether
     start vendor.nfc_hal_service
+
+on property:ro.boot.hwlevel=*
+    setprop ro.boot.hardware.revision ${ro.boot.hwc}_${ro.boot.hwlevel}_${ro.boot.hwversion}

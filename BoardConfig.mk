@@ -68,6 +68,7 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 
 BOARD_KERNEL_CMDLINE := \
     androidboot.init_fatal_reboot_target=recovery \
+    androidboot.serialconsole=0 \
     bootopt=64S3,32N2,64N2 \
     printk.devkmsg=on
 

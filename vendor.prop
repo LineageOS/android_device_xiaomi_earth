@@ -217,6 +217,7 @@ ro.vendor.mtk_microtrust_tee_support=1
 
 # USB
 ro.usb.uvc.enabled=true
+vendor.usb.uvc.payload_transfer_size=1024
 
 # Wi-Fi
 ro.vendor.wifi.sap.concurrent.iface=ap1

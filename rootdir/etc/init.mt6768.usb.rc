@@ -51,7 +51,7 @@ on post-fs
     # uvc function
     mkdir /config/usb_gadget/g1/functions/uvc.0
     write /config/usb_gadget/g1/functions/uvc.0/function_name "Android Webcam"
-    write /config/usb_gadget/g1/functions/uvc.0/streaming_maxpacket 3072
+    write /config/usb_gadget/g1/functions/uvc.0/streaming_maxpacket ${vendor.usb.uvc.payload_transfer_size}
     # write /config/usb_gadget/g1/functions/uvc.0/streaming_maxburst 5
     # write /config/usb_gadget/g1/functions/uvc.0/streaming_interval 2
     # setup control params

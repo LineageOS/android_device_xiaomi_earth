@@ -67,6 +67,9 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 BOARD_KERNEL_CMDLINE := \
+    androidboot.hypervisor.version=1 \
+    androidboot.hypervisor.vm.supported=1 \
+    androidboot.hypervisor.protected_vm.supported=0 \
     androidboot.init_fatal_reboot_target=recovery \
     androidboot.serialconsole=0 \
     bootopt=64S3,32N2,64N2 \

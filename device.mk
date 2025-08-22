@@ -128,6 +128,9 @@ PRODUCT_COPY_FILES += \
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_earth)
 
+# Kernel
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage

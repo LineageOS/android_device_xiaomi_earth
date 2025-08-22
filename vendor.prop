@@ -215,6 +215,9 @@ ro.vendor.mtk.sensor.support=yes
 # Trusted Execution Environment (TEE)
 ro.vendor.mtk_microtrust_tee_support=1
 
+# USB
+ro.usb.uvc.enabled=true
+
 # Wi-Fi
 ro.vendor.wifi.sap.concurrent.iface=ap1
 ro.vendor.wifi.sap.interface=ap0

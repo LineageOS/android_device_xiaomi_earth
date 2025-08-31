@@ -136,6 +136,10 @@ $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_eart
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Media
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \

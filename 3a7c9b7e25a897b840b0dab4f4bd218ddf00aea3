@@ -16,6 +16,24 @@
       "message": "Isn\u0027t this supposed to be merged only on 23.0?",
       "revId": "3a7c9b7e25a897b840b0dab4f4bd218ddf00aea3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04fa9d0c_0ecf98b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-08-31T20:08:58Z",
+      "side": 1,
+      "message": "yeah, so I didn\u0027t vote this change yet",
+      "parentUuid": "b374a2d0_6342b048",
+      "revId": "3a7c9b7e25a897b840b0dab4f4bd218ddf00aea3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

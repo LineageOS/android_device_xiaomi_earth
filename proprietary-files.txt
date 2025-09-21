@@ -1,4 +1,4 @@
-# Unpinned blobs from earth-user 14 UP1A.231005.007 V816.0.7.0.UCVMIXM release-keys
+# Unpinned blobs from earth-user 14 UP1A.231005.007 V816.0.12.0.UCVMIXM release-keys
 
 # AEE
 vendor/lib/libaedv.so
@@ -507,7 +507,7 @@ vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 
 # Camera - from AP1A.240405.002.A1
-vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v35.so|6b8dc8e42d07d643c03fed98092df3984daeaaa7;FIX_SONAME
+vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v35.so;FIX_SONAME|6b8dc8e42d07d643c03fed98092df3984daeaaa7
 
 # Camera Configs
 vendor/etc/camera/768_seg_without_det_with_softmax.mnn.tempcache

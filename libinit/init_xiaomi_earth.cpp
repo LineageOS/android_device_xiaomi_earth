@@ -18,7 +18,7 @@ static const variant_info_t aether_info = {
     .device = "aether",
     .marketname = "Redmi 12C",
     .model = "22126RN91Y",
-    .build_fingerprint = "Redmi/aether_global/aether:14/UP1A.231005.007/V816.0.7.0.UCVMIXM:user/release-keys"
+    .build_fingerprint = "Redmi/aether_global/aether:14/UP1A.231005.007/V816.0.12.0.UCVMIXM:user/release-keys"
 };
 
 static const variant_info_t earth_info = {
@@ -29,7 +29,7 @@ static const variant_info_t earth_info = {
     .device = "earth",
     .marketname = "Redmi 12C",
     .model = "22120RN86G",
-    .build_fingerprint = "Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.7.0.UCVMIXM:user/release-keys"
+    .build_fingerprint = "Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.12.0.UCVMIXM:user/release-keys"
 };
 
 static const variant_info_t earth_la_info = {
@@ -40,7 +40,7 @@ static const variant_info_t earth_la_info = {
     .device = "earth",
     .marketname = "Redmi 12C",
     .model = "2212ARNC4L",
-    .build_fingerprint = "Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.7.0.UCVMIXM:user/release-keys"
+    .build_fingerprint = "Redmi/earth_global/earth:14/UP1A.231005.007/V816.0.12.0.UCVMIXM:user/release-keys"
 };
 
 static const variant_info_t earth_p_info = {
@@ -51,7 +51,7 @@ static const variant_info_t earth_p_info = {
     .device = "earth",
     .marketname = "POCO C55",
     .model = "22127PC95G",
-    .build_fingerprint = "POCO/earth_p_global/earth:14/UP1A.231005.007/V816.0.7.0.UCVMIXM:user/release-keys"
+    .build_fingerprint = "POCO/earth_p_global/earth:14/UP1A.231005.007/V816.0.12.0.UCVMIXM:user/release-keys"
 };
 
 static const std::vector<variant_info_t> variants = {

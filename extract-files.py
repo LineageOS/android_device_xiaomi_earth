@@ -49,6 +49,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libutils-v32.so'),
     'vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service': blob_fixup()
         .replace_needed('android.hardware.power-V2-ndk_platform.so', 'android.hardware.power-V2-ndk.so'),
+    'vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc': blob_fixup()
+        .add_line_if_missing('    interface android.hardware.media.c2@1.0::IComponentStore default')
+        .add_line_if_missing('    interface android.hardware.media.c2@1.1::IComponentStore default')
+        .add_line_if_missing('    interface android.hardware.media.c2@1.2::IComponentStore default'),
     ('vendor/bin/mnld', 'vendor/lib64/libaalservice.so', 'vendor/lib64/libcam.utils.sensorprovider.so'): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so'),
     'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so': blob_fixup()

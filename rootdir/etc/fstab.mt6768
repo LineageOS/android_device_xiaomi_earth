@@ -20,7 +20,7 @@ system_ext 			  /system_ext 		 ext4   ro 												             wait,slotselec
 
 # Userdata
 /dev/block/by-name/md_udc 	  /metadata 		 ext4   												             noatime,nosuid,nodev,discard wait,check,formattable,first_stage_mount
-/dev/block/by-name/userdata 	  /data 		 f2fs 													             noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065,inlinecrypt,fsync_mode=nobarrier wait,check,formattable,quota,latemount,resize,reservedsize=128m,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2,keydirectory=/metadata/vold/metadata_encryption
+/dev/block/by-name/userdata 	  /data 		 f2fs 													             noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065,inlinecrypt,fsync_mode=nobarrier wait,check,formattable,quota,latemount,reservedsize=128m,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2,keydirectory=/metadata/vold/metadata_encryption
 
 # Persistent Partitions
 /dev/block/by-name/protect1 	  /mnt/vendor/protect_f  ext4   												             noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable

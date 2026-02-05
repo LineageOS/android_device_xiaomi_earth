@@ -497,4 +497,8 @@
         <item>45</item>
         <item>53</item>
     </integer-array>
+
+    <!-- Whether WM DisplayContent supports high performance transitions
+         (lower-end devices may want to disable) -->
+    <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
 </resources>

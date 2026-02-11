@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c732634_618059a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-02-11T08:03:40Z",
+      "side": 1,
+      "message": "For this change to be proper, you should only be removing mediated specific interfaces. The rest is removed in the follow-up change.",
+      "revId": "804c646480b032f869a0324ae428be3bd333a912",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

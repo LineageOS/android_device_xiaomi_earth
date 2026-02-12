@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e72afd6_4d40abcc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24442
+      },
+      "writtenOn": "2026-02-12T13:02:59Z",
+      "side": 1,
+      "message": "This isn\u0027t the proper fix, you need to switch the C2 stack entirely to prebuilts.\n\nSee this: https://github.com/Nothing-2A/android_device_nothing_Aerodactyl/commit/5513ea18fc70180206b5bdd91007da07eac29a72",
+      "revId": "39892e34d8c1e189cac3254e2eae7b3125346a45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

@@ -6,7 +6,6 @@ vendor/lib64/libaedv.so
 
 # Audio
 vendor/lib/hw/audio.primary.mt6768.so
-vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so

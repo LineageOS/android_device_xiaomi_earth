@@ -1,0 +1,1 @@
+allow kernel sysfs_headset:file { read open };

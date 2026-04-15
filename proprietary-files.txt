@@ -688,6 +688,7 @@ system_ext/framework/mediatek-telecom-common.jar:system/framework/mediatek-telec
 system_ext/framework/mediatek-telephony-base.jar:system/framework/mediatek-telephony-base.jar;BOOT_JAR
 system_ext/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar;BOOT_JAR
 system_ext/priv-app/ImsService/ImsService.apk
+system_ext/priv-app/MtkGbaService/MtkGbaService.apk
 
 # Keymaster
 vendor/bin/bp_kmsetkey_ca

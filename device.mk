@@ -272,6 +272,9 @@ PRODUCT_PACKAGES += \
 # UFFD GC
 PRODUCT_ENABLE_UFFD_GC := true
 
+# USB
+$(call soong_config_set_bool,mediatek_gadget,use_custom_usb_gadget_rc,true)
+
 # Vibrator
 $(call soong_config_set, vibrator, vibratortargets, vibratoraidlV2target)
 

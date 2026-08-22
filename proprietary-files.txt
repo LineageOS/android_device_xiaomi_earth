@@ -1,9 +1,5 @@
 # Unpinned blobs from earth-user 14 UP1A.231005.007 V816.0.16.0.UCVMIXM release-keys
 
-# AEE
-vendor/lib/libaedv.so
-vendor/lib64/libaedv.so
-
 # Audio
 vendor/lib/hw/audio.primary.mt6768.so
 vendor/lib/libMtkSpeechEnh.so
@@ -703,10 +699,6 @@ vendor/lib64/libkmsetkey.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/lib64/wechat.beanpod.so
-
-# Ladder
-vendor/lib/libladder.so
-vendor/lib64/libladder.so
 
 # Tether Offload
 vendor/bin/hw/tetheroffloadservice
